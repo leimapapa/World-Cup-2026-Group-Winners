@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 World Cup Group Predictor</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-inner">
+      <div class="trophy">⚽</div>
+      <div class="header-text">
+        <span class="header-label">FIFA</span>
+        <span class="header-title">WORLD CUP 2026™</span>
+        <span class="header-sub">Group Stage Predictor</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Group Picker ── -->
+  <nav class="group-nav" id="groupNav"></nav>
+
+  <!-- ── Main content ── -->
+  <main>
+    <h2 class="groupName"></h2>
+
+    <table class="teamScores">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th title="Games Played">GP</th>
+          <th title="Wins">W</th>
+          <th title="Draws">D</th>
+          <th title="Losses">L</th>
+          <th title="Goal Difference">GD</th>
+          <th title="Points">PTS</th>
+        </tr>
+      </thead>
+      <tbody id="teamTableBody"></tbody>
+    </table>
+
+    <!-- ── Predictor widget ── -->
+    <div class="widget-wrap">
+      <div class="winLoseDraw" id="winLoseDraw">
+        <div class="match-label match-label-left" id="matchLabel1"></div>
+        <div class="match-label match-label-right" id="matchLabel2"></div>
+
+        <div class="slidecontainer" id="sc1">
+          <div class="win-label top-label">WIN</div>
+          <div class="custom-track" id="track1">
+            <div class="custom-handle" id="handle1">
+              <span class="fi" id="flag1"></span>
+            </div>
+          </div>
+          <div class="lose-label bottom-label">LOSE</div>
+        </div>
+
+        <div class="slidecontainer" id="sc2">
+          <div class="win-label top-label">WIN</div>
+          <div class="custom-track" id="track2">
+            <div class="custom-handle" id="handle2">
+              <span class="fi" id="flag2"></span>
+            </div>
+          </div>
+          <div class="lose-label bottom-label">LOSE</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="slidecontainer" id="sc3">
+          <div class="win-label top-label">WIN</div>
+          <div class="custom-track" id="track3">
+            <div class="custom-handle" id="handle3">
+              <span class="fi" id="flag3"></span>
+            </div>
+          </div>
+          <div class="lose-label bottom-label">LOSE</div>
+        </div>
+
+        <div class="slidecontainer" id="sc4">
+          <div class="win-label top-label">WIN</div>
+          <div class="custom-track" id="track4">
+            <div class="custom-handle" id="handle4">
+              <span class="fi" id="flag4"></span>
+            </div>
+          </div>
+          <div class="lose-label bottom-label">LOSE</div>
+        </div>
+      </div>
+      <p class="widget-hint">Drag the flags to predict the final matchday outcome</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
