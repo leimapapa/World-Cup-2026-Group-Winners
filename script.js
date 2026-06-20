@@ -17,8 +17,8 @@ const ALL_GROUPS = [
     groupName: "Group B",
     teams: [
       { id: 1, name: "Canada",         flagCode: "ca", GP: 2, W: 1, D: 1, L: 0, GD:  6 },
-      { id: 2, name: "Qatar",          flagCode: "qa", GP: 2, W: 0, D: 1, L: 1, GD: -5 },
-      { id: 3, name: "Bosnia & Herz.", flagCode: "ba", GP: 2, W: 0, D: 1, L: 1, GD: -4 },
+      { id: 2, name: "Qatar",          flagCode: "qa", GP: 2, W: 0, D: 1, L: 1, GD: -6 },
+      { id: 3, name: "Bosnia & Herz.", flagCode: "ba", GP: 2, W: 0, D: 1, L: 1, GD: -3 },
       { id: 4, name: "Switzerland",    flagCode: "ch", GP: 2, W: 1, D: 1, L: 0, GD:  3 },
     ]
   },
@@ -26,20 +26,20 @@ const ALL_GROUPS = [
   {
     groupName: "Group C",
     teams: [
-      { id: 1, name: "Brazil",   flagCode: "br",     GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 2, name: "Morocco",  flagCode: "ma",     GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Haiti",    flagCode: "ht",     GP: 1, W: 0, D: 0, L: 1, GD: -1 },
-      { id: 4, name: "Scotland", flagCode: "gb-sct", GP: 1, W: 1, D: 0, L: 0, GD:  1 },
+      { id: 1, name: "Brazil",   flagCode: "br",     GP: 2, W: 1, D: 1, L: 0, GD:  3 },
+      { id: 2, name: "Morocco",  flagCode: "ma",     GP: 2, W: 1, D: 1, L: 0, GD:  1 },
+      { id: 3, name: "Haiti",    flagCode: "ht",     GP: 2, W: 0, D: 0, L: 2, GD: -4 },
+      { id: 4, name: "Scotland", flagCode: "gb-sct", GP: 2, W: 1, D: 0, L: 1, GD:  0 },
     ]
   },
   // ── GROUP D ──
   {
     groupName: "Group D",
     teams: [
-      { id: 1, name: "USA",       flagCode: "us", GP: 1, W: 1, D: 0, L: 0, GD:  3 },
-      { id: 2, name: "Paraguay",  flagCode: "py", GP: 1, W: 0, D: 0, L: 1, GD: -3 },
-      { id: 3, name: "Australia", flagCode: "au", GP: 1, W: 1, D: 0, L: 0, GD:  2 },
-      { id: 4, name: "Turkey",    flagCode: "tr", GP: 1, W: 0, D: 0, L: 1, GD: -2 },
+      { id: 1, name: "USA",       flagCode: "us", GP: 2, W: 2, D: 0, L: 0, GD:  5 },
+      { id: 2, name: "Paraguay",  flagCode: "py", GP: 2, W: 1, D: 0, L: 1, GD: -2 },
+      { id: 3, name: "Australia", flagCode: "au", GP: 2, W: 1, D: 0, L: 1, GD:  0 },
+      { id: 4, name: "Turkey",    flagCode: "tr", GP: 2, W: 0, D: 0, L: 2, GD: -3 },
     ]
   },
   // ── GROUP E (MD1 only, MD2 on June 20) ──
@@ -56,9 +56,9 @@ const ALL_GROUPS = [
   {
     groupName: "Group F",
     teams: [
-      { id: 1, name: "Netherlands", flagCode: "nl", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
+      { id: 1, name: "Netherlands", flagCode: "nl", GP: 2, W: 0, D: 1, L: 0, GD:  4 },
       { id: 2, name: "Japan",       flagCode: "jp", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Sweden",      flagCode: "se", GP: 1, W: 1, D: 0, L: 0, GD:  4 },
+      { id: 3, name: "Sweden",      flagCode: "se", GP: 2, W: 1, D: 0, L: 0, GD:  0 },
       { id: 4, name: "Tunisia",     flagCode: "tn", GP: 1, W: 0, D: 0, L: 1, GD: -4 },
     ]
   },
