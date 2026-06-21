@@ -46,10 +46,10 @@ const ALL_GROUPS = [
   {
     groupName: "Group E",
     teams: [
-      { id: 1, name: "Germany",     flagCode: "de", GP: 1, W: 1, D: 0, L: 0, GD:  6 },
-      { id: 2, name: "Curacao",     flagCode: "cw", GP: 1, W: 0, D: 0, L: 1, GD: -6 },
-      { id: 3, name: "Ivory Coast", flagCode: "ci", GP: 1, W: 1, D: 0, L: 0, GD:  1 },
-      { id: 4, name: "Ecuador",     flagCode: "ec", GP: 1, W: 0, D: 0, L: 1, GD: -1 },
+      { id: 1, name: "Germany",     flagCode: "de", GP: 2, W: 2, D: 0, L: 0, GD:  7 },
+      { id: 2, name: "Curacao",     flagCode: "cw", GP: 2, W: 0, D: 1, L: 1, GD: -6 },
+      { id: 3, name: "Ivory Coast", flagCode: "ci", GP: 2, W: 1, D: 0, L: 1, GD:  0 },
+      { id: 4, name: "Ecuador",     flagCode: "ec", GP: 2, W: 0, D: 1, L: 1, GD: -1 },
     ]
   },
   // ── GROUP F (MD1 only, MD2 on June 20) ──
