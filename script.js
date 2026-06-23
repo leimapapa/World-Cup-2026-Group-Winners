@@ -56,59 +56,59 @@ const ALL_GROUPS = [
   {
     groupName: "Group F",
     teams: [
-      { id: 1, name: "Netherlands", flagCode: "nl", GP: 2, W: 0, D: 1, L: 0, GD:  4 },
-      { id: 2, name: "Japan",       flagCode: "jp", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Sweden",      flagCode: "se", GP: 2, W: 1, D: 0, L: 0, GD:  0 },
-      { id: 4, name: "Tunisia",     flagCode: "tn", GP: 1, W: 0, D: 0, L: 1, GD: -4 },
+      { id: 1, name: "Netherlands", flagCode: "nl", GP: 2, W: 1, D: 1, L: 0, GD:  4 },
+      { id: 2, name: "Japan",       flagCode: "jp", GP: 2, W: 1, D: 1, L: 0, GD:  4 },
+      { id: 3, name: "Sweden",      flagCode: "se", GP: 2, W: 1, D: 0, L: 1, GD:  0 },
+      { id: 4, name: "Tunisia",     flagCode: "tn", GP: 1, W: 0, D: 0, L: 2, GD: -8 },
     ]
   },
   // ── GROUP G (MD1 only, MD2 on June 21) ──
   {
     groupName: "Group G",
     teams: [
-      { id: 1, name: "Belgium",     flagCode: "be", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 2, name: "Egypt",       flagCode: "eg", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Iran",        flagCode: "ir", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 4, name: "New Zealand", flagCode: "nz", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
+      { id: 1, name: "Belgium",     flagCode: "be", GP: 2, W: 0, D: 2, L: 0, GD:  0 },
+      { id: 2, name: "Egypt",       flagCode: "eg", GP: 2, W: 1, D: 1, L: 0, GD:  2 },
+      { id: 3, name: "Iran",        flagCode: "ir", GP: 2, W: 0, D: 2, L: 0, GD:  0 },
+      { id: 4, name: "New Zealand", flagCode: "nz", GP: 2, W: 0, D: 1, L: 1, GD:  -2 },
     ]
   },
   // ── GROUP H (MD1 only, MD2 on June 21) ──
   {
     groupName: "Group H",
     teams: [
-      { id: 1, name: "Spain",        flagCode: "es", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 2, name: "Cape Verde",   flagCode: "cv", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Saudi Arabia", flagCode: "sa", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 4, name: "Uruguay",      flagCode: "uy", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
+      { id: 1, name: "Spain",        flagCode: "es", GP: 2, W: 1, D: 1, L: 0, GD:  4 },
+      { id: 2, name: "Cape Verde",   flagCode: "cv", GP: 2, W: 0, D: 2, L: 0, GD:  0 },
+      { id: 3, name: "Saudi Arabia", flagCode: "sa", GP: 2, W: 0, D: 1, L: 1, GD:  -4 },
+      { id: 4, name: "Uruguay",      flagCode: "uy", GP: 2, W: 0, D: 2, L: 0, GD:  0 },
     ]
   },
   // ── GROUP I (MD1 only, MD2 on June 22-23) ──
   {
     groupName: "Group I",
     teams: [
-      { id: 1, name: "France",  flagCode: "fr", GP: 1, W: 1, D: 0, L: 0, GD:  2 },
-      { id: 2, name: "Senegal", flagCode: "sn", GP: 1, W: 0, D: 0, L: 1, GD: -2 },
-      { id: 3, name: "Iraq",    flagCode: "iq", GP: 1, W: 0, D: 0, L: 1, GD: -3 },
-      { id: 4, name: "Norway",  flagCode: "no", GP: 1, W: 1, D: 0, L: 0, GD:  3 },
+      { id: 1, name: "France",  flagCode: "fr", GP: 2, W: 2, D: 0, L: 0, GD:  5 },
+      { id: 2, name: "Senegal", flagCode: "sn", GP: 2, W: 0, D: 0, L: 2, GD: -3 },
+      { id: 3, name: "Iraq",    flagCode: "iq", GP: 2, W: 0, D: 0, L: 2, GD: -6 },
+      { id: 4, name: "Norway",  flagCode: "no", GP: 2, W: 2, D: 0, L: 0, GD:  4 },
     ]
   },
   // ── GROUP J (MD1 only, MD2 on June 22) ──
   {
     groupName: "Group J",
     teams: [
-      { id: 1, name: "Argentina", flagCode: "ar", GP: 1, W: 1, D: 0, L: 0, GD:  3 },
-      { id: 2, name: "Algeria",   flagCode: "dz", GP: 1, W: 0, D: 0, L: 1, GD: -3 },
-      { id: 3, name: "Austria",   flagCode: "at", GP: 1, W: 1, D: 0, L: 0, GD:  2 },
-      { id: 4, name: "Jordan",    flagCode: "jo", GP: 1, W: 0, D: 0, L: 1, GD: -2 },
+      { id: 1, name: "Argentina", flagCode: "ar", GP: 2, W: 2, D: 0, L: 0, GD:  5 },
+      { id: 2, name: "Algeria",   flagCode: "dz", GP: 2, W: 1, D: 0, L: 1, GD: -2 },
+      { id: 3, name: "Austria",   flagCode: "at", GP: 2, W: 1, D: 0, L: 1, GD:  0 },
+      { id: 4, name: "Jordan",    flagCode: "jo", GP: 2, W: 0, D: 0, L: 2, GD: -3 },
     ]
   },
   // ── GROUP K (MD1 only, MD2 on June 23) ──
   {
     groupName: "Group K",
     teams: [
-      { id: 1, name: "Portugal",  flagCode: "pt", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
+      { id: 1, name: "Portugal",  flagCode: "pt", GP: 2, W: 1, D: 1, L: 0, GD:  5 },
       { id: 2, name: "DR Congo",  flagCode: "cd", GP: 1, W: 0, D: 1, L: 0, GD:  0 },
-      { id: 3, name: "Uzbekistan", flagCode: "uz", GP: 1, W: 0, D: 0, L: 1, GD: -2 },
+      { id: 3, name: "Uzbekistan", flagCode: "uz", GP: 2, W: 0, D: 0, L: 2, GD: -7 },
       { id: 4, name: "Colombia",  flagCode: "co", GP: 1, W: 1, D: 0, L: 0, GD:  2 },
     ]
   },
